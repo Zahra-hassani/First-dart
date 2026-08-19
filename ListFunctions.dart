@@ -15,4 +15,8 @@ void main() {
   print(numbers.contains(99));
   print(numbers.indexOf(89));
   print(numbers.indexWhere((i) => i % 8 == 0));
+
+  // map and where
+  print(numbers.map((i) => i * 3).toList());
+   print(numbers.where((i) => i%3 == 0).toList());
 }
