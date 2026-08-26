@@ -29,8 +29,14 @@ void main() {
   // print(employeeSalaries.removeWhere( (key, value){key.contains("i"); value > 40000;}));
   print(employeeSalaries.containsKey("Sara"));
   print(employeeSalaries.containsValue(40000));
+  // iterations on map
   employeeSalaries.forEach((k,v) {
   v -= 1000;
    print("$k : $v");
    });
+
+  //  for in
+  for (var value in employeeSalaries.keys) {
+    print(value);
+  };
 }
