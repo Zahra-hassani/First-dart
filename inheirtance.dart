@@ -20,7 +20,7 @@ class softwareEngineer extends Employee {
 
 void main(List<String> args) {
     softwareEngineer Sara = softwareEngineer("Sara", "Moradi", "Developement", "0792323146", "Female", "Computer Science");
-    print("${Sara.name} ${Sara.lastName} is our new Employee.");
+    print("${Sara.name} ${Sara.lastName} is our new employee.");
     Sara.work();
 }
 
