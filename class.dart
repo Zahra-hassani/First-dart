@@ -18,7 +18,7 @@ class Product{
 
 void main() {
   var cat = new Animal("Cat", "Small", 42, 3.9);
-  print("Our first instance is ${cat.name}. it is a ${cat.size} animal with almost ${cat.height}. it is really cute.");
+  print("Our first instance is ${cat.name}. it is a ${cat.size} animal with almost ${cat.height} centimeters height. it is really cute.");
   print(cat.weight);
 
   var sheep = new Animal("Sheep", "Big", 69, 28.60);
