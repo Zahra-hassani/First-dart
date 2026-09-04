@@ -23,6 +23,7 @@ num divid([num number1 = 1, num number2 = 1]){
 // 1. dart extention
 // 2. famous functions for string, number, list, set and object
 // 3. date and time function
+// 4. flutter extension
 
 void main(){
     num resultNumber = sum(12,4);
