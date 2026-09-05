@@ -1,4 +1,4 @@
-class Shape{
+abstract class Shape{
   String name;
   int sides;
   Shape(this.name,this.sides);
